@@ -67,6 +67,8 @@ The purpose of this lab is to both get you familiar with using these non-github 
     
         1. The recurrence relation that describes the function's runtime:
             $$T(n) = aT(n/b) + f(n)$$
+            
+            The runtime is a functino of 
 
         1. The solution to the recurrence you wrote above as provided by the master theorem:
             $$T(n) = \Theta()$$
@@ -82,29 +84,29 @@ The purpose of this lab is to both get you familiar with using these non-github 
 
         |                | `binary_search`           | `trinary_search`      |
         | -------------- | ------------------------- | --------------------- | 
-        | `n=2**0`       |                           |                       |
-        | `n=2**1`       |                           |                       |
-        | `n=2**2`       |                           |                       |
-        | `n=2**3`       |                           |                       |
-        | `n=2**4`       |                           |                       |
-        | `n=2**5`       |                           |                       |
-        | `n=2**6`       |                           |                       |
-        | `n=2**7`       |                           |                       |
-        | `n=2**8`       |                           |                       |
-        | `n=2**9`       |                           |                       |
-        | `n=2**10`      |                           |                       |
-        | `n=2**11`      |                           |                       |
-        | `n=2**12`      |                           |                       |
-        | `n=2**13`      |                           |                       |
-        | `n=2**14`      |                           |                       |
-        | `n=2**15`      |                           |                       |
-        | `n=2**16`      |                           |                       |
-        | `n=2**17`      |                           |                       |
-        | `n=2**18`      |                           |                       |
-        | `n=2**19`      |                           |                       |
-        | `n=2**20`      |                           |                       |
-        | `n=2**21`      |                           |                       |
-        | `n=2**22`      |                           |                       |
+        | `n=2**0`       |      0.782 usec           |      1.93 usec        |
+        | `n=2**1`       |       1.44 usec           |      3.42 usec        |
+        | `n=2**2`       |       2.13 usec           |      3.46 usec        |
+        | `n=2**3`       |       2.47 usec           |      3.55 usec        |
+        | `n=2**4`       |       3.13 usec           |     0.663 usec        |
+        | `n=2**5`       |       3.64 usec           |      3.18 usec        |
+        | `n=2**6`       |       4.04 usec           |      6.48 usec        |
+        | `n=2**7`       |       4.52 usec           |      5.88 usec        |
+        | `n=2**8`       |       4.93 usec           |      7.99 usec        |
+        | `n=2**9`       |       5.72 usec           |      4.89 usec        |
+        | `n=2**10`      |       6.19 usec           |      7.77 usec        |
+        | `n=2**11`      |       6.68 usec           |      9.33 usec        |
+        | `n=2**12`      |       7.46 usec           |      10.1 usec        |
+        | `n=2**13`      |       7.93 usec           |      10.8 usec        |
+        | `n=2**14`      |       8.65 usec           |      13.9 usec        |
+        | `n=2**15`      |       9.11 usec           |      13.4 usec        |
+        | `n=2**16`      |       9.55 usec           |      15.3 usec        |
+        | `n=2**17`      |       10.2 usec           |      13.6 usec        |
+        | `n=2**18`      |         11 usec           |        15 usec        |
+        | `n=2**19`      |       11.2 usec           |      12.5 usec        |
+        | `n=2**20`      |       12.2 usec           |      17.7 usec        |
+        | `n=2**21`      |       12.6 usec           |      16.6 usec        |
+        | `n=2**22`      |       12.9 usec           |       18 usec         |
 
 
 1. Use the master theorem to solve the following recurrence relations,
