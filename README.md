@@ -70,7 +70,7 @@ The purpose of this lab is to both get you familiar with using these non-github 
              
 
         1. The solution to the recurrence you wrote above as provided by the master theorem:
-            $$T(n) = Theta(log n)$$
+            $$T(n) = Theta(log3(n))$$
 
         (Feel free to check your answers with me before moving on.)
     
